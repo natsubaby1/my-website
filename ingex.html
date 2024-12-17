@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>塩屋マリンバピアノ教室</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    /* 基本設定 */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #00bcd4;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 5px solid #008c99;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    /* メインコンテンツ */
+    .content {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      margin-bottom: 60px;
+    }
+
+    .section h2 {
+      color: #00bcd4;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .section p {
+      font-size: 1.2em;
+      line-height: 1.8;
+      text-align: center;
+      padding: 0 20px;
+      color: #555;
+    }
+
+    .section p strong {
+      font-size: 1.4em;
+      color: #333;
+    }
+
+    /* 料金テーブル */
+    .pricing-table {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .pricing-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 0;
+      border-bottom: 1px solid #ddd;
+      font-size: 1.3em;
+    }
+
+    .pricing-item:last-child {
+      border-bottom: none;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .free {
+      color: #00bcd4;
+      font-weight: bold;
+    }
+
+    /* 音符アイコンのスタイル */
+    .music-icon {
+      font-size: 2em;
+      color: #f19bbc;
+      margin-right: 10px;
+    }
+
+    .icon-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    /* 強調されたテキストのスタイル */
+    .highlight-text {
+      font-size: 1.4em;  /* 文字サイズを大きく */
+      font-weight: bold; /* 太字に */
+      color: #333; /* 色を暗く */
+      text-align: center; /* 中央寄せに */
+      line-height: 1.6; /* 行間を少し広げて読みやすく */
+      margin-top: 10px; /* 上部に少し余白 */
+    }
+
+    /* レスポンシブデザインのための設定 */
+    @media (max-width: 768px) {
+      .content {
+        padding: 20px;
+      }
+
+      .pricing-table {
+        width: 100%;
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 2.5em;
+      }
+
+      header p {
+        font-size: 1em;
+      }
+
+      .section h2 {
+        font-size: 2em;
+      }
+
+      .pricing-item {
+        font-size: 1.1em;
+      }
+    }
+
+    /* 教室のイラスト追加 */
+    .illustration {
+      width: 100%;
+      max-width: 600px;
+      margin: 30px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* フッター */
+    footer {
+      background-color: #00bcd4;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 1.1em;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* アイコン */
+    .contact-icon {
+      font-size: 3em;
+      color: white;
+      cursor: pointer;
+    }
+
+    .contact-icon:hover {
+      color: #fcf826;
+    }
+
+    /* マリンバアイコン */
+    .marimba-icon {
+      font-size: 3em;
+      color: #5f2e00;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <h1>塩屋マリンバピアノ教室</h1>
+    <p>〜海の見える、音楽を楽しみながら学べる場所〜</p>
+  </header>
+
+  <!-- 教室について -->
+  <div class="content">
+    <div class="section">
+      <h2>教室について</h2>
+      <div class="icon-wrapper">
+        <i class="fas fa-music music-icon"></i>
+        <p>
+          音楽の魅力を、あなたのペースで楽しく学んでいただける場所です。<br>
+          どんなジャンルでもご希望に沿ったレッスンを行い、個々のペースに合わせて進めていきます。<br>
+          初めての方も大歓迎！音楽が好きな気持ちを大切に、基礎からしっかりサポートします。<br>
+          <strong>年齢を問わず、どんな方でも楽しく学べる教室です。</strong><br>
+          楽器の演奏に自信がない方でも安心して学べる、温かい雰囲気の教室です。<br>
+        </p>
+      </div>
+    </div>
+
+    <!-- マリンバのイラスト -->
+    <div class="section">
+      <h2>教室の雰囲気</h2>
+      <img src="https://example.com/marimba-illustration.jpg" alt="マリンバ" class="illustration">
+      <p>教室では、マリンバを中心に、音楽の楽しさを感じながらレッスンを行っています。<br><span class="highlight-text">温かなレッスンを通じて、音楽の魅力や新しい発見を一緒に見つけていきましょう。</span></p>
+    </div>
+
+    <!-- 料金 -->
+    <div class="section">
+      <h2>料金</h2>
+      <div class="pricing-table">
+        <div class="pricing-item">
+          <span>個人レッスン 30分</span>
+          <span class="price">￥2,500</span>
+        </div>
+        <div class="pricing-item">
+          <span>月3回 30分</span>
+          <span class="price">￥7,000</span>
+        </div>
+        <div class="pricing-item">
+          <span>無料体験レッスン 20分</span>
+          <span class="free">無料</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 無料駐車場 -->
+    <div class="section">
+      <h2>無料駐車場</h2>
+      <p>教室には無料の駐車場が完備されていますので、安心してお越しいただけます。</p>
+    </div>
+  </div>
+
+  <!-- お問い合わせ -->
+  <footer>
+    <p>レッスンの詳細については、お気軽にお問い合わせください</p>
+    <a href="mailto:marimba.pvq@gmail.com">
+      <i class="fas fa-paper-plane contact-icon"></i> お問い合わせ
+    </a>
+  </footer>
+
+  <!-- マリンバアイコン -->
+  <div class="marimba-icon">
+    <i class="fas fa-drum"></i>
+  </div>
+
+</body>
+</html>
